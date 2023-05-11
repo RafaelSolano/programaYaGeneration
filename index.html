@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="icon" href="media/icons8-source-code-48.png">
+    <!-- -------------------------------- cdns --------------------------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ------------------------------ cdn fonts ------------------------------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- --------------------------------- css --------------------------------- -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/somoSct.css">
@@ -25,7 +32,7 @@
 <body>
     <header>
         <div class="header__container">
-            <p class="header__logo">ProgramaYa!</p>
+            <p class="header__logo"><img src="/media/icons8-source-code-48.png" alt="logo"><span>ProgramaYa!</span></p>
             <nav class="header__menu">
                 <a class="header__menu_item" href="#somos-proya">Quienes Somos</a>
                 <a class="header__menu_item" href="#nuestros-programas">Nuestros Programas</a>
@@ -36,7 +43,7 @@
     <main>
         <section id="hero__container">
             <h1 class="hero__title">Aprendé a Programar <br>con los Mejores</h1>
-            <button class="hero__btn">APLICÁ YA!</button>
+            <button class="hero__btn callToAction__btn">APLICÁ YA!</button>
         </section>
         <section id="somos-proya">
             <div class="somos__container">
@@ -58,21 +65,21 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt
                             saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis
                             mollitia ducimus veritatis repellendus?</p>
-                        <button>+ Info</button>
+                        <button class="btn-info"><i class="fa-sharp fa-solid fa-plus"></i> Info</button>
                     </div>
                     <div class="programas__card">
                         <h3>Programador Full-Stack</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt
                             saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis
                             mollitia ducimus veritatis repellendus?</p>
-                        <button>+ Info</button>
+                        <button class="btn-info" ><i class="fa-sharp fa-solid fa-plus"></i> Info</button>
                     </div>
                     <div class="programas__card">
                         <h3>Programador Python</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vero corporis incidunt
                             saepe qui commodi quasi neque veniam quam, aspernatur est beatae maxime animi sed reiciendis
                             mollitia ducimus veritatis repellendus?</p>
-                        <button>+ Info</button>
+                        <button class="btn-info" ><i class="fa-sharp fa-solid fa-plus"></i> Info</button>
                     </div>
                 </div>
             </div>
@@ -80,10 +87,10 @@
         <section id="caracteristicas">
             <div class="caracteristicas__container">
                 <ul class="caracteristicas__lista">
-                    <li class="caracteristicas__lista_item" >✔️ 100% online</li>
-                    <li class="caracteristicas__lista_item" >✔️ Flexibilidad de horarios</li>
-                    <li class="caracteristicas__lista_item" >✔️ Soporte 1:1</li>
-                    <li class="caracteristicas__lista_item" >✔️ Asistencia financiera</li>
+                    <li class="caracteristicas__lista_item" ><i class="fa-sharp fa-solid fa-check"></i></i> 100% online</li>
+                    <li class="caracteristicas__lista_item" ><i class="fa-sharp fa-solid fa-check"></i></i> Flexibilidad de horarios</li>
+                    <li class="caracteristicas__lista_item" ><i class="fa-sharp fa-solid fa-check"></i></i> Soporte 1:1</li>
+                    <li class="caracteristicas__lista_item" ><i class="fa-sharp fa-solid fa-check"></i></i> Asistencia financiera</li>
                 </ul>
             </div>
         </section>

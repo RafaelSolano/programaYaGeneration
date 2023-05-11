@@ -1,16 +1,59 @@
 #nuestros-programas{
-    background-color: #73f5c1;
+    padding:  1.2rem;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    color: var(--color-secondary);
+
 }
 
 .programas__container{
+    padding: 1.2rem;
+}
+.programas__container h2{
+    text-align: center;
+    margin-bottom: 1.2rem;
+
+}
+.programas__card_list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 
 }
 .programas__card_list{
 
-}
-.programas__card_list{
-    
 }
 .programas__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 2.4rem;
+    height: 300px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.programas__card h3{
+
+}
+
+.programas__card p{
+    display: none;
+
+}
+
+.programas__card:first-child{
+    background-image:linear-gradient(45deg, rgb(106, 109, 101), rgba(245, 241, 241, 0.146)), url(/media/front-end.jpg);
+
+}
+.programas__card:nth-child(2){
+    background-image:linear-gradient(45deg, rgb(106, 109, 101),rgba(245, 241, 241, 0.146)), url(/media/full-stack.jpg);
+
+}
+.programas__card:last-child{
+    background-image:linear-gradient(45deg, rgb(106, 109, 101),rgba(245, 241, 241, 0.146)), url(/media/hero.jpg);
 
 }
