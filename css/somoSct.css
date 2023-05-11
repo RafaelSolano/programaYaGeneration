@@ -1,4 +1,7 @@
 #somos-proya{
+    padding: 2.4rem;
+    text-align: center;
+   
     
 
 }
@@ -14,6 +17,8 @@
 }
 
 .somos__title{
+    color: var(--color-primary);
+    margin-bottom: 1.2rem;
 
 }
 

@@ -1,7 +1,14 @@
 .footer__container{
     
+    padding: 2rem;
+    text-align: center;
+    
+    
+    
 
 }
 .footer__copy{
+    font-size: 1.8rem;
+    font-weight: 700;
     
 }

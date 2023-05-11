@@ -1,5 +1,11 @@
 #caracteristicas{
-   
+    display:  grid;
+    place-content: center;
+    text-align: justify;
+    font-size: 2.4rem;
+    padding: 2.4rem;
+
+
 }
 .caracteristicas__container{
 
@@ -9,4 +15,7 @@
 }
 .caracteristicas__lista_item{
     
+}
+.caracteristicas__lista_item i{
+    color: var(--color-primary);
 }

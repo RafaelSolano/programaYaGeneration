@@ -1,6 +1,6 @@
 #hero__container{
 
-    padding: 2.4rem;
+    padding: 3.8rem;
     margin-top: 0.4rem;
     background-image:linear-gradient(45deg, rgb(108, 174, 245), rgba(245, 241, 241, 0.146)), url(/media/hero.jpg) ;
     background-repeat: no-repeat;
@@ -9,6 +9,8 @@
     
 }
 .hero__title{
+    margin-bottom: 1.2rem;
+    font-size: 3.4rem;
     color:  var(--color-secondary);
 }
 .hero__btn{

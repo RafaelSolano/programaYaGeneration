@@ -1,4 +1,30 @@
 
-#callToAction{
+.header__menu{
+    justify-content: start;
+}
+
+
+
+/* * Estilos de tarjetas */
+
+.programas__card_list{
+    flex-direction: row;
     
+}
+.programas__card {
+    
+}
+
+.programas__card  p{
+    display: block;
+    
+}
+
+/** * Estilos de las caracteristicas */
+
+.caracteristicas__lista{
+    display: flex;
+    gap: 2.4rem;
+    
+
 }
