@@ -60,3 +60,6 @@
     background-image:linear-gradient(45deg, rgb(106, 109, 101),rgba(245, 241, 241, 0.146)), url(/media/hero.jpg);
 
 }
+.programas-card__img{
+    display: none;
+}
